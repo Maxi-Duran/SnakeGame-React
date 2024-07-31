@@ -105,7 +105,7 @@ function App() {
   };
   return (
     <div>
-      <h1 className="text-center text-4xl mt-5 font-mono">Snake Game</h1>
+      <h1 className="text-center text-4xl font-mono">Snake Game</h1>
       <h3 className="text-center text-1xl  font-mono">
         Perderas si chocas con los bordes
       </h3>
@@ -137,7 +137,7 @@ function App() {
       <div
         className={`grid grid-cols-[repeat(${gridsize},1fr)] grid-rows-[repeat(${gridsize},1fr)]
            bg-slate-900   border-black max-w-[600px] h-[600px]
-           m-auto  mt-10 mb-10   `}
+           m-auto    `}
       >
         {cells.map((_, id) => (
           <div key={id} className=" w-[100%] h-[100%]"></div>
