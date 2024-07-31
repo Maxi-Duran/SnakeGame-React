@@ -136,8 +136,8 @@ function App() {
 
       <div
         className={`grid grid-cols-[repeat(${gridsize},1fr)] grid-rows-[repeat(${gridsize},1fr)]
-           bg-slate-900  border-black max-w-[600px] h-[600px]
-           m-auto  absolute top-0 bottom-0 left-0 right-0  `}
+           bg-slate-900   border-black max-w-[600px] h-[600px]
+           m-auto  absolute top-20 bottom-0 left-0 right-0   `}
       >
         {cells.map((_, id) => (
           <div key={id} className=" w-[100%] h-[100%]"></div>
