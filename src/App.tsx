@@ -113,7 +113,7 @@ function App() {
         Perderas si chocas contra ti mismo
       </h3>
       <h3 className="text-center text-1xl font-mono">
-        Utiliza las flechas del teclado
+        Utiliza las flechas del teclado siiiiiiiiii
       </h3>
       <div
         onKeyDown={onKeyboardMove}
